@@ -32,4 +32,19 @@ int main (void)
     ft_putchar('i');
     ft_putchar('\n');
 }
+
+int     main(void)
+{
+        // Escribe el carácter 'H' en la consola.
+        ft_putchar('H');
+        // Escribe el carácter 'o' en la consola.
+        ft_putchar('o');
+        // Escribe el carácter 'l' en la consola.
+        ft_putchar('l');
+        // Escribe el carácter 'a' en la consola.
+        ft_putchar('a');
+        // Escribe el carácter '!' en la consola.
+        ft_putchar('!');
+        return (0);
+}
 */
