@@ -2,19 +2,18 @@
 
  void ft_is_negative(int n)
 {
-    int i;
-
-    i = 0;
-    if (n == 45)
+    if (n >= 0) //le estoy indicando que si es o mayor (todos los numero)
+    {
+        write (1, "p\n", 2);
+    }
+    else
     {
         write (1, "N\n", 2);
-        i++;
     }
-    else if (n == 43)
-    {
-        write (1, "P\n", 2);
-        i++;
-    }
-    else 
-        return (1);
+}
+
+int main (void)
+{
+    ft_is_negative(5); //esto imprime P
+    ft_is_negative(-3); //esto imprime N
 }
